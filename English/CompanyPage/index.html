@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>ITI - Home Page</title>
+  </head>
+  <body>
+    <!-- ******************** Header ***************************** -->
+    <header>
+      <h1 class="logo">Zwena</h1>
+      <nav>
+        <li><a href="..//Home/index.html">Home</a></li>
+        <li><a href="#footer">About</a></li>
+        <div class="box">
+          <button id="signupIcon" class="icon-button">
+            <i class="fa-solid fa-user"></i>
+          </button>
+          <div id="signupForm">
+            <form>
+              <h3>Log In</h3>
+              <input
+                type="email"
+                id="signupEmail"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="password"
+                id="signupPassword"
+                placeholder="Password"
+                required
+              />
+              <a href="#">Forget your password ..?</a>
+              <button type="submit">Sign Up</button>
+              <section class="last">
+                <label for="">Not Registed?</label>
+                <a href="..//finalproject/signup.html">Create an Account</a>
+              </section>
+            </form>
+          </div>
+        </div>
+        <button id="changeLang" data-lang="arabic">
+          <img
+            src="Images/egypt_323324.png"
+            width="20px"
+            height="20px"
+          />العربيه
+        </button>
+      </nav>
+    </header>
+
+    <!-- ********************* Page Part ******************************* -->
+    <div class="page">
+      <section class="cover">
+        <img src="Images/information_technology_institute_iti__cover.jfif" />
+      </section>
+      <section class="logo">
+        <img src="Images/1631351788797.jfif" />
+      </section>
+      <section class="titel">
+        <h1>Information Technology Institue (ITI)</h1>
+        <p>
+          ITI initially set up to provide specialised software development
+          programs to fresh graduates
+        </p>
+        <p>التدريب والتوجيه الاحترافي</p>
+        <main class="btn">
+          <button>Visit Our Website</button>
+          <button><i class="fa-solid fa-check"></i> Following</button>
+        </main>
+      </section>
+    </div>
+
+    <!-- ********************* Right Side ******************************* -->
+
+    <div class="box1">
+      <img src="Images/1631351788797.jfif" />
+      <p>Information Technology Institue (ITI)</p>
+      <label>1,000,000 Follower</label>
+    </div>
+    <div class="box2">
+      <h4>Contact Us :</h4>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+    <!-- *********************  left Side ******************************* -->
+
+    <!-- ###################### Top left Side ###################### -->
+
+    <div class="leftSideTop">
+      <div class="post">
+        <section class="top">
+          <img src="Images/1631351788797.jfif" />
+          <textarea id="post" placeholder="Start a Post ..."></textarea>
+        </section>
+        <section class="icons">
+          <section>
+            <label for=""> Write sheet </label>
+            <i class="fa-solid fa-sheet-plastic"></i>
+          </section>
+          <section>
+            <label for="">Event</label>
+            <i class="fa-solid fa-calendar-days"></i>
+          </section>
+          <section>
+            <label for=""> Media </label>
+            <i class="fa-solid fa-image"></i>
+          </section>
+        </section>
+        <button class="postBtn">
+          Post <i class="fa-solid fa-retweet"></i>
+        </button>
+      </div>
+    </div>
+    <!-- ###################### Bottom left Side ###################### -->
+    <div class="leftSideBottom">
+      <div class="boxPost">
+        <section class="postedTop">
+          <section class="right">
+            <img src="Images/1631351788797.jfif" />
+            <h4>Information Technology Intsitute (ITI)</h4>
+          </section>
+          <button id="delete">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </button>
+        </section>
+        <section class="describtion">
+          <p class="para">
+            We are seeking an experienced Backend Developer to join our growing
+            team! The ideal candidate should have strong proficiency in
+            server-side languages like Python, Node.js, or Java, and a deep
+            understanding of database technologies such as MySQL, PostgreSQL, or
+            MongoDB.
+          </p>
+          <img src="Images/images.png" />
+        </section>
+        <section class="iconss">
+          <button><i class="fa-solid fa-pen-nib"></i> Applay</button>
+          <button><i class="fa-solid fa-paper-plane"></i> Massage</button>
+        </section>
+      </div>
+      <div class="boxPost">
+        <section class="postedTop">
+          <section class="right">
+            <img src="Images/1631351788797.jfif" />
+            <h4>Information Technology Intsitute (ITI)</h4>
+          </section>
+          <button id="delete">
+            <i class="fa-regular fa-circle-xmark"></i>
+          </button>
+        </section>
+        <section class="describtion">
+          <p class="para">
+            We are looking for a skilled UI Designer to join our innovative
+            team! The ideal candidate should have strong expertise in design
+            tools such as Adobe XD, Figma, and Sketch
+          </p>
+          <img src="Images/images.png" />
+        </section>
+        <section class="iconss">
+          <button><i class="fa-solid fa-pen-nib"></i> Applay</button>
+          <button><i class="fa-solid fa-paper-plane"></i> Massage</button>
+        </section>
+      </div>
+    </div>
+
+    <!-- ************************ Script Sources *************************** -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <title>Zwena</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Zwena</h1>
+      <nav>
+        <li><a href="#">Home</a></li>
+        <li><a href="#footer">About</a></li>
+        <div class="box">
+          <button id="signupIcon" class="icon-button">
+            <i class="fa-solid fa-user"></i>
+          </button>
+          <div id="signupForm">
+            <form>
+              <h3>Log In</h3>
+              <input
+                type="email"
+                id="signupEmail"
+                placeholder="Email"
+                required
+              />
+              <input
+                type="password"
+                id="signupPassword"
+                placeholder="Password"
+                required
+              />
+              <a href="#">Forget your password ..?</a>
+              <button type="submit">Sign Up</button>
+              <section>
+                <label for="">Not Registed ?</label>
+                <a href="..//finalproject/signup.html">Create an Account</a>
+              </section>
+            </form>
+          </div>
+        </div>
+        <button id="changeLang" data-lang="arabic">
+          <img
+            src="Images/egypt_323324.png"
+            width="20px"
+            height="20px"
+          />العربيه
+        </button>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="content">
+        <section class="leftSide">
+          <h1>Zwena</h1>
+          <a href="..//finalproject/signup.html">Sign Up Now</a>
+        </section>
+        <section class="text">
+          <p>
+            *Helps people with special needs find employment and training
+            opportunities in various places and specializations.
+          </p>
+          <br />
+          <p>
+            *Helping companies achieve their social responsibility through
+            training and employing people with special needs in various jobs and
+            specializations.
+          </p>
+        </section>
+      </div>
+    </div>
+    <!-- ****************************************************** -->
+    <div class="Conter">
+      <div class="secondeContainer">
+        <section class="one" data-aos="fade-right">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <h2>Training</h2>
+          <p>
+            Training people with special needs to acquire new skills in the
+            labor market from multiple entities, and obtaining them from those
+            entities.
+          </p>
+          <br />
+          <p>
+            Helping companies find qualified cadres with people with special
+            needs to fulfill their role towards society.
+          </p>
+        </section>
+        <section class="two" data-aos="fade-left">
+          <i class="fa-solid fa-briefcase"></i>
+          <h2>Employee</h2>
+          <p>
+            Helping people with special needs find suitable job opportunities in
+            various places.
+          </p>
+          <br />
+          <p>
+            Helping companies find qualified people with special needs in
+            various jobs in a way that enables them to achieve their goals.
+          </p>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="first">
+          <h2>Zwena</h2>
+          <section class="icon">
+            <p>Follow Us</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+          </section>
+        </div>
+        <div class="seconde">
+          <p>All Copyright Reversed @Zwena - 2024</p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

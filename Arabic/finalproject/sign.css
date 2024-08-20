@@ -1,0 +1,473 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppions", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.78)),
+    url(jon-tyson-O7ke8N4kTpQ-unsplash.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  direction: rtl;
+}
+
+.contianer {
+  width: 500px;
+  height: 600px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  margin: 150px 0px;
+}
+
+.contianer .form-box h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.user-name {
+  width: 100%;
+  height: 40px;
+  margin: 30px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.form-box .user-name input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  color: #fff;
+  transition: 0.5s;
+}
+.user-name input::placeholder {
+  color: #fff;
+  text-align: center;
+}
+.form-box .user-name input:focus {
+  width: 101%;
+  box-shadow: 1px 4px 5px #a5a3a3;
+}
+.e-mail {
+  width: 100%;
+  height: 40px;
+  margin: 30px 0;
+  text-align: center;
+}
+.form-box .e-mail input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  color: #fff;
+  transition: 0.5s;
+}
+.form-box .e-mail input:focus {
+  width: 101%;
+  box-shadow: 1px 4px 5px #a5a3a3;
+}
+
+.e-mail input::placeholder {
+  color: #fff;
+  text-align: center;
+}
+
+.form-box .password {
+  width: 100%;
+  height: 40px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.password input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  transition: 0.5s;
+}
+.password input:focus {
+  width: 101%;
+  box-shadow: 1px 4px 5px #a5a3a3;
+}
+
+.form-box .password input::placeholder {
+  text-align: center;
+  color: #fff;
+}
+
+div.major {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+div.major input {
+  width: 100px;
+  margin-left: -35px !important;
+}
+
+div .major .company {
+  margin-right: 190px;
+}
+div.major #company {
+  position: relative;
+  left: -188px;
+}
+
+div.major label {
+  width: 50px;
+  margin-left: -30px;
+  margin-top: 7px;
+  font-size: 18px;
+}
+
+.contianer .submit {
+  width: 60%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 10px 0;
+  transition: 0.5s;
+}
+.contianer .submit:hover {
+  width: 61%;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 1px 4px 5px #b2b0b080;
+}
+
+.contianer .reset {
+  width: 35%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-left: 10px;
+  transition: 0.5s;
+  margin: 10px 0;
+}
+.contianer .reset:hover {
+  width: 36%;
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 1px 4px 5px #b2b0b080;
+}
+.form-box .botom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box .back-to-login {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-box .back-to-login .login-page {
+  color: #ccc6c6;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+.form-box .login-page:hover {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.form-box .botom .google {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.form-box .botom .google:hover {
+  text-decoration: underline;
+  font-size: 22px;
+}
+.form-box .botom .google i {
+  margin-right: 10px;
+}
+
+.form-box .botom .facebook {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.form-box .botom .facebook:hover {
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.form-box .botom .facebook i {
+  margin-right: 10px;
+}
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+}
+
+body header h1 {
+  color: white;
+  padding: 10px 20px 0px 100px;
+}
+
+body header nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body header nav li {
+  list-style: none;
+  position: relative;
+}
+
+body header nav li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+body header nav li:hover::after {
+  width: 100%;
+}
+
+body header nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+body header nav i {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+body header nav i:hover {
+  font-size: 27px;
+  opacity: 0.7;
+}
+
+body header nav button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+body header nav button:hover {
+  background-color: #a5a3a3;
+}
+
+body header nav button img {
+  padding-right: 7px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+#signupIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#signupForm {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -125px;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  z-index: 1;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+#signupForm form {
+  display: flex;
+  flex-direction: column;
+}
+form h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+a {
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+}
+#signupForm input[type="email"],
+#signupForm input[type="password"] {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#signupForm input[type="email"]:focus,
+#signupForm input[type="password"]:focus {
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 1px 4px 5px #333;
+  transition: 0.5s;
+}
+#signupForm button[type="submit"] {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #a5a3a3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#signupForm button[type="submit"]:hover {
+  background-color: #333;
+  box-shadow: 1px 4px 5px #333;
+  transition: 0.5s;
+}
+section {
+  margin-top: 10px;
+}
+label {
+  font-size: 14px;
+  opacity: 0.7;
+}
+/* ******************************************* */
+footer {
+  width: 100%;
+  height: 150px;
+  outline: none;
+  border: none;
+  background-color: #000;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  position: absolute;
+  bottom: -300px;
+  margin-top: 600px;
+}
+.first {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.first h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 70px;
+}
+.first .icon {
+  margin-left: 100px;
+}
+.first .icon p {
+  color: #fff;
+  font-weight: bold;
+  direction: ltr;
+}
+.first .icon i {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 10px 10px 0;
+}
+.first .icon i:hover {
+  font-size: 30px;
+  opacity: 0.7;
+}
+.seconde {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seconde p {
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+  direction: rtl;
+}

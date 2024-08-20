@@ -1,0 +1,351 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 200vh;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.78)
+    ),
+    url(Images/cuting.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+body header h1 {
+  color: white;
+  padding: 10px 0 10px 100px;
+}
+
+body header nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body header nav li {
+  list-style: none;
+  position: relative;
+}
+
+body header nav li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+body header nav li:hover::after {
+  width: 100%;
+}
+
+body header nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+body header nav i {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+body header nav i:hover {
+  font-size: 27px;
+  opacity: 0.7;
+}
+
+body header nav button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+body header nav button:hover {
+  background-color: #a5a3a3;
+}
+
+body header nav button img {
+  padding-right: 7px;
+} */
+/* ********************************************************** */
+/* .box {
+  position: relative;
+  display: inline-block;
+}
+
+#signupIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#signupForm {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -125px;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  z-index: 1;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+#signupForm form {
+  display: flex;
+  flex-direction: column;
+}
+form h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+a {
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+}
+#signupForm input[type="email"],
+#signupForm input[type="password"] {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#signupForm input[type="email"]:focus,
+#signupForm input[type="password"]:focus {
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 1px 4px 5px #333;
+  transition: 0.5s;
+}
+#signupForm button[type="submit"] {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #416faa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#signupForm button[type="submit"]:hover {
+  background-color: #426b9f;
+  box-shadow: 1px 4px 5px #333;
+  transition: 0.5s;
+}
+section {
+  margin-top: 10px;
+}
+label {
+  font-size: 14px;
+  opacity: 0.7;
+} */
+/*The Conent Box*/
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 60%;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.411);
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  padding: 40px;
+  overflow: hidden;
+}
+.leftSide {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.leftSide h1 {
+  color: #fff;
+  font-size: 100px;
+  margin: 40px 0 30px;
+}
+.leftSide a {
+  width: 100px;
+  margin: 50px 0 0 50px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.5s;
+  background-color: #333;
+  color: #fff;
+}
+.leftSide a:hover {
+  width: 115px;
+  padding: 25px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  box-shadow: 1px 4px 5px #eee;
+}
+.text {
+  width: 300px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  align-self: center;
+}
+/* ************************************************ */
+.Conter {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.secondeContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.secondeContainer section {
+  width: 500px;
+  height: 400px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.411);
+  border-radius: 8px;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.one,
+.two {
+  text-align: center;
+}
+.one i,
+.two i {
+  font-size: 70px;
+  color: #eee;
+  padding-bottom: 20px;
+}
+.one p,
+.two p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.one h2,
+.two h2 {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* ******************************************** */
+
+/* footer {
+  width: 100%;
+  height: 250px;
+  outline: none;
+  border: none;
+  border-top: 2px solid whitesmoke;
+  background-color: #000;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.first {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.first h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 70px;
+}
+.first .icon {
+  margin-right: 100px;
+}
+.first .icon p {
+  color: #fff;
+}
+.first .icon i {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 10px 10px 0;
+}
+.first .icon i:hover {
+  font-size: 30px;
+  opacity: 0.7;
+}
+.seconde {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seconde p {
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+} */

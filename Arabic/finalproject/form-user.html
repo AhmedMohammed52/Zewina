@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="formUser.css">
+    <title>معلومات المستخدم</title>
+    
+  </head>
+  <body>
+    <!-- ****************************** Header **************************** -->
+    <header class="header">
+      <h1 class="logo">Zwena</h1>
+      <nav>
+        <li><a href="..//home/index.html">الصفحه الرئيسه</a></li>
+        <li><a href="#footer">من نحن </a></li>
+        <div class="box">
+          <button id="signupIcon" class="icon-button">
+            <i class="fa-solid fa-user"></i>
+          </button>
+          <div id="signupForm">
+            <form>
+              <h3>تسجيل دخول</h3>
+              <input
+                type="email"
+                id="signupEmail"
+                placeholder="الايميل"
+                required
+                dir="rtl"
+              />
+              <input
+                type="password"
+                id="signupPassword"
+                placeholder="كلمه المرور"
+                required
+                dir="rtl"
+              />
+              <a href="#" dir="rtl">هل نسيت كلمه المرور .. ؟</a>
+              <button type="submit" dir="rtl">تسجيل</button>
+              <section dir="rtl">
+                <label for="">لا تمتلك حساب ؟</label>
+                <a href="..//finalproject/signup.html">انشاء حساب</a>
+              </section>
+            </form>
+          </div>
+        </div>
+        <button>
+          English
+          <img src="..//Company Registeration/Images/EN-logo.png" width="20px" height="20px" />
+        </button>
+      </nav>
+    </header>
+    <!-- ****************************** Container **************************** -->
+    <section class="contianer">
+      <div class="form-box">
+        <form>
+          <h1>معلومات المستخدم</h1>
+          <div class="User-name">
+            <input
+              type="text"
+              name="u-name"
+              placeholder="اسمك الكامل"
+              required
+              autofocus
+            />
+          </div>
+
+          <div class="e-mail">
+            <input
+              type="email"
+              name="mail"
+              placeholder="عنوان البريد الإلكتروني"
+              required
+            />
+          </div>
+
+          <div class="Address">
+            <input
+              type="text"
+              name="addr"
+              placeholder="عنوانك"
+              required
+            />
+          </div>
+
+          <div class="id-user">
+            <input
+              type="number"
+              name="id"
+              placeholder="معرفك الشخصي"
+              maxlength="14"
+              minlength="14"
+              required
+            />
+          </div>
+
+          <div class="isc">
+            <input
+              type="number"
+              name="isc"
+              placeholder=" بطاقه الخدمات المتكامله"
+              maxlength="14"
+              minlength="14"
+              required
+            />
+          </div>
+          <div class="btn">
+            <input type="submit" value="تسجيل" class="submit" />
+            <input type="reset" value="تفريغ" class="reset" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- ****************************** Footer **************************** -->
+    <footer id="footer" dir="rtl">
+      <div class="first">
+        <h2>Zwena</h2>
+        <section class="icon">
+          <p dir="ltr">تابعنا</p>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </section>
+      </div>
+      <div class="seconde" dir="rtl">
+        <p>جميع حقوق الطبع والنشر محفوظه @Zwena - 2024</p>
+      </div>
+    </footer>
+    <script src="index1.js"></script>
+  </body>
+</html>

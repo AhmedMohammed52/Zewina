@@ -1,0 +1,351 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppions", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.78)),
+    url(jon-tyson-O7ke8N4kTpQ-unsplash.jpg) no-repeat center fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  direction: rtl;
+}
+
+.contianer {
+  width: 500px;
+  height: 390px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  margin-bottom: 100px;
+}
+
+.contianer .form-box h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.contianer .form-box .inbot-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.inbot-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 18px;
+  padding: 20px 45px 20px 20px;
+  color: #fff;
+}
+.inbot-box input:focus {
+  box-shadow: 1px 4px 5px #b2b0b080;
+  width: 102%;
+}
+.inbot-box input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.inbot-box i {
+  position: absolute;
+  left: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+}
+
+.contianer .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.contianer .btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  transition: 0.5s;
+}
+.contianer .btn:hover {
+  background: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  box-shadow: 1px 4px 5px #b2b0b080;
+}
+
+.contianer .register-link {
+  margin: 20px 0 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.register-link p a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+/* ****************************** */
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  margin-bottom: 5px;
+}
+
+body header h1 {
+  color: white;
+  padding: 10px 0 10px 100px;
+  margin-right: 60px;
+}
+
+body header nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body header nav li {
+  list-style: none;
+  position: relative;
+}
+
+body header nav li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+body header nav li:hover::after {
+  width: 100%;
+}
+
+body header nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+body header nav i {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+body header nav i:hover {
+  font-size: 27px;
+  opacity: 0.7;
+}
+
+body header nav button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+body header nav button:hover {
+  background-color: #a5a3a3;
+}
+
+body header nav button img {
+  padding-right: 7px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+#signupIcon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#signupForm {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: -125px;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  z-index: 1;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+#signupForm form {
+  display: flex;
+  flex-direction: column;
+}
+form h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+a {
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+}
+#signupForm input[type="email"],
+#signupForm input[type="password"] {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#signupForm input[type="email"]:focus,
+#signupForm input[type="password"]:focus {
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 1px 4px 5px #333;
+  transition: 0.5s;
+}
+#signupForm button[type="submit"] {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #a5a3a3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#signupForm button[type="submit"]:hover {
+  background-color: #333;
+  box-shadow: 1px 4px 5px #333;
+  transition: 0.5s;
+}
+section {
+  margin-top: 10px;
+}
+label {
+  font-size: 14px;
+  opacity: 0.7;
+}
+/* ******************************************* */
+footer {
+  width: 100%;
+  height: 150px;
+  outline: none;
+  border: none;
+  background-color: #000;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  
+}
+.first {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.first h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 70px;
+}
+.first .icon {
+  margin-left: 100px;
+}
+.first .icon p {
+  color: #fff;
+}
+.first .icon i {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 10px 10px 0;
+}
+.first .icon i:hover {
+  font-size: 30px;
+  opacity: 0.7;
+}
+.seconde {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seconde p {
+  text-align: center;
+  font-size: 16px;
+  color: #ccc;
+}

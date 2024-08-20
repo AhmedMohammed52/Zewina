@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>صفحه المستخدم</title>
+  </head>
+  <body>
+    <div class="conatiner">
+      <header class="header">
+        <h1 class="logo">Zwena</h1>
+        <nav>
+          <li><a href="..//Home/index.html">الصفحه الرئيسه</a></li>
+          <li><a href="#footer">من نحن </a></li>
+          <div class="box">
+            <button id="signupIcon" class="icon-button">
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <div id="signupForm">
+              <form>
+                <h3>تسجيل دخول</h3>
+                <input
+                  type="email"
+                  id="signupEmail"
+                  placeholder="الايميل"
+                  required
+                  dir="rtl"
+                />
+                <input
+                  type="password"
+                  id="signupPassword"
+                  placeholder="كلمه المرور"
+                  required
+                  dir="rtl"
+                />
+                <a href="#" dir="rtl">هل نسيت كلمه المرور .. ؟</a>
+                <button type="submit" dir="rtl">تسجيل</button>
+                <section dir="rtl">
+                  <label for="">لا تمتلك حساب ؟</label>
+                  <a href="..//finalproject/signup.html">انشاء حساب</a>
+                </section>
+              </form>
+            </div>
+          </div>
+          <button>
+            English
+            <img src="Images/EN-logo.png" width="20px" height="20px" />
+          </button>
+        </nav>
+      </header>
+      <!-- ********************* Side Bar *************************** -->
+      <div class="SideBar">
+        <section id="img">
+          <img src="Images/IMG_20240727_172714_716.jpg" />
+        </section>
+        <h4>أحمد محمد</h4>
+        <p>
+          مصر - قنا الجديده - الحي الأول
+          <i class="fa-solid fa-location-dot"></i>
+        </p>
+        <hr />
+        <h2>المؤهلات</h2>
+        <p>
+          بكالوريوس برمجة الكمبيوتر
+          <i class="fa-solid fa-user-graduate"></i>
+        </p>
+        <hr />
+        <h2>المهارات</h2>
+        <li>تصميم جيرافيك</li>
+        <li>ميكروسف اوفيس</li>
+        <li>تصميم واجهه المواقع</li>
+        <br />
+        <hr />
+        <h2>الكورسات & التدريبات</h2>
+        <li>تصميم المواقع</li>
+        <li>كورس الشيكات</li>
+        <li>تدريب الواجهه الداخليه</li>
+        <li>معسكر تصميم التطبيقات</li>
+        <li>معسكر تصميمات UI & UX</li>
+        <br />
+        <hr />
+        <h2>حسابات التواصل الأجتماعي</h2>
+        <section>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </section>
+      </div>
+      <!-- ********************* Content Box ********************* -->
+      <div class="Content">
+        <div class="post">
+          <section class="top">
+            <textarea
+              id="post"
+              placeholder="ابدأ الكتابه ..."
+              dir="rtl"
+            ></textarea>
+            <img src="Images/IMG_20240727_172714_716.jpg" />
+          </section>
+          <section class="icons">
+            <section>
+              <label for=""> اكتب مقال </label>
+              <i class="fa-solid fa-sheet-plastic"></i>
+            </section>
+            <section>
+              <label for="">الأحداث</label>
+              <i class="fa-solid fa-calendar-days"></i>
+            </section>
+            <section>
+              <label for=""> الوسائط </label>
+              <i class="fa-solid fa-image"></i>
+            </section>
+          </section>
+          <button class="postBtn">
+            نشر <i class="fa-solid fa-retweet"></i>
+          </button>
+        </div>
+        <div class="posted">
+          <div class="boxPost">
+            <section class="postedTop" dir="rtl">
+              <section class="right">
+                <img src="Images/logo.jfif" />
+                <h4>معهد تكنولوجيا المعلومات (ITI)</h4>
+              </section>
+              <button id="delete">X</button>
+            </section>
+            <section class="describtion" dir="rtl">
+              <p class="para">
+                نحن نبحث عن مطور الواجهة الخلفية ذو الخبرة للانضمام إلينا فريق
+                متزايد! يجب أن يتمتع المرشح المثالي بكفاءة قوية في اللغات من
+                جانب الخادم مثل Python أو Node.js أو Java و الفهم العميق لتقنيات
+                قواعد البيانات مثل MySQL، PostgreSQL، أو MongoDB.
+              </p>
+              <img src="Images/images.png" />
+            </section>
+            <section class="iconss">
+              <button><i class="fa-solid fa-paper-plane"></i> رساله</button>
+              <button><i class="fa-solid fa-pen-nib"></i> تقديم</button>
+            </section>
+          </div>
+          <div class="boxPost">
+            <section class="postedTop" dir="rtl">
+              <section class="right">
+                <img src="Images/logo.jfif" />
+                <h4>معهد تكنولوجيا المعلومات (ITI)</h4>
+              </section>
+              <button id="delete">X</button>
+            </section>
+            <section class="describtion" dir="rtl">
+              <p class="para">
+                نحن نبحث عن مصمم واجهة مستخدم ماهر للانضمام إلى فريقنا المبتكر
+                فريق! يجب أن يتمتع المرشح المثالي بخبرة قوية في التصميم أدوات
+                مثل Adobe XD، وFigma، وSketch
+              </p>
+              <img src="Images/images.png" />
+            </section>
+            <section class="iconss">
+              <button><i class="fa-solid fa-paper-plane"></i> رساله</button>
+              <button><i class="fa-solid fa-pen-nib"></i> تقديم</button>
+            </section>
+          </div>
+        </div>
+      </div>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
